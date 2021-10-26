@@ -88,10 +88,22 @@ main{
     /* TEST */
     background-color: cornflowerblue;
 }
+/* CONTAINER LIST */
+.container-list{
+    height: 40px;
+    width: 60%;
+    margin: auto;
+    line-height: 40px;
+    text-align: center;
+}
+/* UL MAIN */
+.container-list li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
 
 .user{
-    
-
     /* TEST */
     background-color: brown;
     color: white;
