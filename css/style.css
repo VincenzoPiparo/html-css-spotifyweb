@@ -9,6 +9,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+li{
+    list-style-type: none;
+}
+
 /* CONTAINER WRAP */
 .container-wrap{
     width: 100%;
@@ -38,7 +42,10 @@ main{
 }
 
 /* NAV-MAIN */
-.nav-main{
+.nav-main{ 
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
     float: left;
     width: 230px;
     height: 100%;
@@ -48,15 +55,21 @@ main{
 }
 
 .actions-nav{
-
+    
     /* TEST */
     background-color: yellow;
 }
 
 .playlist-nav{
-
+    overflow: hidden;
+    flex-grow: 1;
      /* TEST */
      background-color: rebeccapurple;
+}
+
+.scrollbar{
+    overflow-y: auto;
+    height: 80%;
 }
 
 .make-playlist{
@@ -77,10 +90,11 @@ main{
 }
 
 .user{
-
     
+
     /* TEST */
     background-color: brown;
+    color: white;
 }
 
 /* LOGO */
