@@ -8,11 +8,15 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
 li{
     list-style-type: none;
 }
-
+img{
+    width: 100%;
+}
+.text-title{
+    margin: 20px 20px;
+}
 
 
 /* CONTAINER WRAP */
@@ -91,18 +95,32 @@ main{
 }
 /* CONTAINER LIST */
 .container-list{
-    display: inline-block;
-    height: 40px;
     width: 100%;
-    margin: auto;
-    line-height: 40px;
+    margin: 25px auto;
     text-align: center;
     font-size: 10px;
 }
+/* CONTAINER IMAGE */
+.container-songs{
+    display: flex;
+    text-align: center;
+    margin: 0 15px;
+}
+.songs{
+    width: calc(100% / 6);
+    height: 100%;
+    margin: 10px 5px;
+}
+
+.container-img-middle{
+    display: flex;
+}
+
+
 /* UL MAIN */
 .container-list li{
     display: inline-block;
-    margin: 0 25px;
+    margin: 0 10px;
 }
 .user{
     /* TEST */
@@ -116,10 +134,6 @@ main{
 
     /* TEST */
     background-color: cyan;
-}
-
-.image img{
-    
 }
 
 /* FOOTER */
