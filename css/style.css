@@ -13,6 +13,8 @@ li{
     list-style-type: none;
 }
 
+
+
 /* CONTAINER WRAP */
 .container-wrap{
     width: 100%;
@@ -61,14 +63,13 @@ main{
 }
 
 .playlist-nav{
-    overflow: hidden;
+    overflow-y: auto;
     flex-grow: 1;
      /* TEST */
      background-color: rebeccapurple;
 }
 
 .scrollbar{
-    overflow-y: auto;
     height: 80%;
 }
 
@@ -90,25 +91,24 @@ main{
 }
 /* CONTAINER LIST */
 .container-list{
+    display: inline-block;
     height: 40px;
-    width: 60%;
+    width: 100%;
     margin: auto;
     line-height: 40px;
     text-align: center;
+    font-size: 10px;
 }
 /* UL MAIN */
 .container-list li{
     display: inline-block;
     margin: 0 25px;
 }
-
-
 .user{
     /* TEST */
     background-color: brown;
     color: white;
 }
-
 /* LOGO */
 .logo{
     width: 100%;
@@ -116,6 +116,10 @@ main{
 
     /* TEST */
     background-color: cyan;
+}
+
+.image img{
+    
 }
 
 /* FOOTER */
