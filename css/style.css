@@ -211,6 +211,9 @@ main{
     width: 70%;
     margin: 10px 5px;
 }
+.logo img:last-child{
+    display: none;
+}
 
 /* FOOTER */
 footer{
@@ -254,5 +257,11 @@ footer{
    .playlist-nav h2{
        display: none;
    } */
+   .logo img{
+       display: none;
+   }
+   .logo img:last-child{
+       display: block;
+   }
  }
 
