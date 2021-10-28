@@ -95,6 +95,7 @@ main{
 
 .contain-scroll{
     height: 100%;
+    overflow-y: auto;
 }
 .scrollbar{
     flex-grow: 1;
@@ -205,11 +206,87 @@ main{
 }
 /* FOOTER */
 footer{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 120px;
     overflow: hidden;
     background-color: #282828;
 }
+.footer-six{
+    display: flex;
+    align-items: center;
+}
+.footer-right{
+    display: flex;
+    align-items: center;
+}
+
+.audiofuctions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 25px;
+}
+.button {
+    text-align: center;
+}
+.button i {
+    filter: invert(1);
+    margin: 0 15px;
+    vertical-align: middle;
+}
+.fa-play-circle:before {
+    font-size: 25px;
+}
+.bar {
+    border: 2px solid grey;
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.bar-right{
+    border: 2px solid grey;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 25px;
+}
+.time {
+    color: white;
+    font-size: 10px;
+    padding: 0 10px;
+}
+
+
+
+
+/* FOOTER SIX */
+.footer-six img{
+    width: 70px;
+    height: 70px;
+    margin: 20px 15px;
+}
+.music-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* FONT AWESOME FOOTER */
+.font-awesome{
+    margin-left: 20px;
+    font-size: small;
+    color: white;
+}
+.font-awesome i{
+    padding-left: 10px;
+}
+
+
+
+
+
+
 /* MEDIA QUARY MAIN CONTAINER */
 @media screen and (max-width: 700px) {
     .songs{
