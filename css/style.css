@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* COMMON */
 body{
     font-family: 'Montserrat', sans-serif;
@@ -57,14 +56,12 @@ span{
     display: inline-block;
     line-height: normal;
 }
-
 /* MAIN */
 main{
     width: 100%;
     height: calc(100% - 120px);
     overflow: hidden;
 }
-
 /* NAV-MAIN */
 .nav-main{ 
     display: flex;
@@ -74,14 +71,12 @@ main{
     height: 100%;
     background-color: black;
 }
-
 .nav-container{
     position: relative;
     width: 90%;
     height: calc(100% - 20px);
     margin: 15px auto;
 }
-
 .actions-nav{
     padding: 15px 10px;
     line-height: 25px;
@@ -98,6 +93,9 @@ main{
     line-height: 40px;
 }
 
+.contain-scroll{
+    height: 100%;
+}
 .scrollbar{
     flex-grow: 1;
     overflow: hidden;
@@ -114,7 +112,6 @@ main{
     padding: 10px 0;
     color: #5b5b5b;
 }
-
 .make-playlist span{
     background-color: #a3a3a3;
     padding: 10px 10px;
@@ -148,7 +145,6 @@ main{
     width: 8%;
     vertical-align: middle;
 }
-
 .orizontal-boarder{
     border: 1px solid #313131;
     width: 80%;
@@ -161,8 +157,6 @@ main{
     height: 100%;
     width: calc(100% - 230px);
     overflow-y: auto;
-
-    /* TEST */
     background-color: #141922;
 }
 /* CONTAINER LIST */
@@ -183,7 +177,6 @@ main{
     height: 100%;
     margin: 10px 5px;
 }
-
 /* CONTAINER SONGS BOTTOM */
 .container-songs-bottom{
     display: flex;
@@ -193,19 +186,15 @@ main{
 .container-songs-bottom img{
     border-radius: 50%;
 }
-
 .container-img-middle{
     display: flex;
 }
-
-
 /* UL MAIN */
 .container-list li{
     display: inline-block;
     margin: 0 10px;
     font-size: 13px;
 }
-
 /* LOGO */
 .logo{
     width: 70%;
@@ -214,7 +203,6 @@ main{
 .logo img:last-child{
     display: none;
 }
-
 /* FOOTER */
 footer{
     width: 100%;
@@ -222,25 +210,21 @@ footer{
     overflow: hidden;
     background-color: #282828;
 }
-
 /* MEDIA QUARY MAIN CONTAINER */
 @media screen and (max-width: 700px) {
     .songs{
         flex: none;
         width: 22%;
-        
     }
     .container-songs{
         flex-wrap: wrap;
     }
 }
-
 @media screen and (max-width: 600px) {
    .songs{
        width: 40%;
    }
 }
-
 @media screen and (max-width: 550px) {
     .content-main{
         width: calc(100% - 50px);
@@ -251,17 +235,36 @@ footer{
    .top-bar{
     width: calc(100% - 50px);
    }
-   /* .scrollbar{
-       display: none;
-   }
-   .playlist-nav h2{
-       display: none;
-   } */
    .logo img{
        display: none;
    }
    .logo img:last-child{
        display: block;
+       margin-left: 4px;
    }
+   .scrollbar{
+       display: none;
+   }
+    .media-quary{
+        display: none;
+    }
+    .actions-nav ul li img{
+        width: 100%;
+    }
+    .user .dwn img{
+        width: 100%;
+        margin-right: 7px;
+    }
+    .user .orizontal-boarder{
+        border: 1px solid black;
+    }
+    .user .profiles img{
+        width: 80%;
+        margin-left: 6px;
+    }
+    .playlist-nav{
+        display: none;
+    }
  }
 
+ 
